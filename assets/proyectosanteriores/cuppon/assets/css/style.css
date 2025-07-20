@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+.tamaño-logo-blanco {
+  width: 86px;
+  height: 25px;
+}
+
+.card-title {
+  font: normal normal 300 20px/24px Roboto;
+  color: #212529;
+}
+
+.card-text {
+  margin-bottom: 0px;
+  font: normal normal 300 16px/19px Roboto;
+  color: #707070;
+}
+
+.direccion {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 4px;
+}
+
+.direccion p {
+  font: normal normal 300 13px/15px Roboto;
+}
+
+.direccion-no-visible {
+  display: flex;
+  visibility: hidden;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  margin-top: 5px;
+  background-color: #333; /* Modern Browsers */
+}
+.precios {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.precio-normal {
+  margin-right: 10px;
+  margin-bottom: 0px;
+  font: normal normal 300 16px/19px Roboto;
+  color: #707070;
+}
+
+.precio-oferta {
+  margin-right: 5px;
+  margin-bottom: 0px;
+  font: normal normal 500 20px/24px Roboto;
+}
+
+.formulario {
+  height: 241px;
+}
+
+.formulario legend {
+  font: normal normal 500 21px/24px Roboto;
+}
+
+footer {
+  height: 118px;
+}
+.logo-negro {
+  width: 82px;
+  height: 24px;
+}

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.cabecera {
+  height: 10em;
+  padding: 5em;
+  background-image: url(../imgs/photoheader.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.cabecera h1 {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+}
+
+.productos {
+  width: 50%;
+  margin: auto;
+}
+
+.productos td {
+  width: 50%;
+  padding: 3em 1em;
+}
+
+.productos img {
+  width: 400px;
+  height: 300px;
+  border: solid 1px;
+  border-color: black;
+  margin-right: 1em;
+}
+
+.productos h2 {
+  font-size: 1,5em;
+  font-weight: 400;
+}
+
+.productos p {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.footer {
+  background-color: rgb(252, 113, 0);
+  text-align: center;
+  padding: 1em;
+  color: white;
+  font-weight: 700;
+}
+
+.disclaimer {
+  font-size: 10px;
+}
